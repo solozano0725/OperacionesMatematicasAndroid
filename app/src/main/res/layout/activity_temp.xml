@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.uac.johnfontalvoperez.formativataller.TempActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:hint="@string/tempe"
+        android:id="@+id/id_temp"
+        android:layout_marginTop="13dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/convertir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_convertir"
+        android:textSize="25sp"
+        android:layout_below="@+id/temperaturas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtresultado"
+        android:textStyle="normal|bold"
+        android:textSize="30sp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="49dp"
+        android:layout_marginEnd="49dp"
+        tools:ignore="RelativeOverlap" />
+
+    <RadioGroup
+        android:id="@+id/temperaturas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_below="@+id/id_temp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="23dp">
+
+        <RadioButton
+            android:text="@string/farenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_faren"
+            android:textSize="18sp"
+            android:layout_marginTop="19dp"
+            tools:ignore="RtlHardcoded" />
+
+        <RadioButton
+            android:text="@string/kelvin"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:id="@+id/id_kelv"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:layout_weight="0.53" />
+
+        <RadioButton
+            android:text="@string/rankine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_rank"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp" />
+    </RadioGroup>
+
+    <TextView
+        android:text="@string/temperatura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:layout_marginTop="18dp"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="normal|bold" />
+
+
+</RelativeLayout>

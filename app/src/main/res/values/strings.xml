@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">UniMatematicas</string>
+    <string name="potencia">Potencia</string>
+    <string name="mcm">MCM</string>
+    <string name="mayor_y_menor">Mayor Y Menor</string>
+    <string name="regresar">Regresar</string>
+    <string name="numero_1">Numero 1</string>
+    <string name="numero_2">Numero 2</string>
+    <string name="operaciones">Operaciones</string>
+    <string name="acerca_de">Acerca De</string>
+    <string name="base">Base</string>
+    <string name="galeria">Galeria</string>
+    <string name="temperatura">Temperatura</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="usuario">Usuario</string>
+    <string name="ingresar">ingresar</string>
+    <string name="temp">temp.</string>
+    <string name="operac">Operaciones</string>
+    <string name="creado">Creado por:</string>
+    <string name="nombre1">Sol Mayra Lozano.</string>
+    <string name="nombre2">John Fontalvo Perez</string>
+    <string name="version">Version:</string>
+    <string name="numero_version">1.5</string>
+    <string name="empresa">Elaborado para: </string>
+    <string name="nombre_empresa">UniMatematicas</string>
+    <string name="licencia">Tipo de Licencia</string>
+    <string name="opensource">OpenSource</string>
+    <string name="copy">Distribucion Libre. 2017</string>
+    <string name="tempe">Ingrese la temperatura en Celsius</string>
+    <string name="kelvin">Kelvin</string>
+    <string name="farenheit">Farenheit</string>
+    <string name="rankine">Rankine</string>
+    <string name="convertir">Convertir</string>
+    <string name="numero">Ingrese Numero</string>
+    <string name="menu">Menu</string>
+</resources>

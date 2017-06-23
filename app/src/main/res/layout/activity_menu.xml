@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.uac.johnfontalvoperez.formativataller.MenuActivity">
+
+    <Button
+        android:id="@+id/btn_temperatura"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_temperature"
+        android:text="@string/temp"
+        android:layout_alignTop="@+id/btn_Operaciones"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp" />
+
+    <Button
+        android:id="@+id/btn_galeria"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_gallery"
+        android:text="@string/galeria"
+        android:layout_alignTop="@+id/btn_base"
+        android:layout_alignRight="@+id/btn_temperatura"
+        android:layout_alignEnd="@+id/btn_temperatura" />
+
+    <Button
+        android:id="@+id/btn_base"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_binary"
+        android:text="@string/base"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:text="@string/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp" />
+
+    <Button
+        android:id="@+id/btn_Operaciones"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_math"
+        android:text="@string/operac"
+        android:layout_above="@+id/btn_base"
+        android:layout_alignLeft="@+id/btn_base"
+        android:layout_alignStart="@+id/btn_base" />
+
+    <Button
+        android:id="@+id/btn_acerca"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_menu_manage"
+        android:text="@string/acerca_de"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/btn_galeria"
+        android:layout_alignLeft="@+id/btn_base"
+        android:layout_alignStart="@+id/btn_base"
+        android:layout_alignRight="@+id/btn_galeria"
+        android:layout_alignEnd="@+id/btn_galeria" />
+</RelativeLayout>
